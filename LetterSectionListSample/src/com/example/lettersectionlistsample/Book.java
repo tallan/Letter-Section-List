@@ -71,7 +71,6 @@ public class Book extends LetterSectionListItem{
 		
 		sortString += (authorLastName.trim() + authorFirstName.trim());
 		
-		// TODO Auto-generated method stub
 		setSortString(sortString);
 	}	
 }

@@ -22,6 +22,7 @@ public class LetterSectionListAdapter extends ArrayAdapter<LetterSectionListItem
 	
 	public LetterSectionListAdapter(Context context, int resource, List<LetterSectionListItem> items) {
 		super(context, R.layout.item_row, items);
+        Collections.sort(items,new LetterSectionListItemComparator());    
 		this.resource = resource;
 	}
 	

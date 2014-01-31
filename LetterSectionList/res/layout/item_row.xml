@@ -6,6 +6,7 @@
     android:orientation="vertical" >
 
     <TextView
+        style="@style/LetterSectionListItem"
         android:id="@+id/item_row_letter"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>

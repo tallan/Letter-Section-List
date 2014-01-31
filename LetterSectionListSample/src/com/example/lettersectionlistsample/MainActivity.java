@@ -5,9 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,14 +34,16 @@ public class MainActivity extends Activity {
     }
     
     private void createBookList(){
-        ListView bookListView = (ListView) findViewById(R.id.booklistview);
-
         List<LetterSectionListItem> books = createBooks();
-        Collections.sort(books,new LetterSectionListItemComparator());        
         
+        //Find the list view in my activity
+        ListView bookListView = (ListView) findViewById(R.id.booklistview);
+                
+        //Using custom booklist_row view that the header will be wrapped around
 		LetterSectionListAdapter bookListAdapter = new LetterSectionListAdapter(this, R.layout.booklist_row, books) {			
 			@Override
-			public View getView(int position, View v, ViewGroup parent) {		
+			public View getView(int position, View v, ViewGroup parent) {	
+				//Must call this before to wrap the header around the view
 				v = super.getView(position, v, parent);
 				
 				TextView bookTitle = (TextView) v.findViewById(R.id.book_title);

@@ -16,5 +16,10 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-
+    
+    <style name="LetterSectionListItem" parent="@android:style/TextAppearance.Medium">       
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#008800</item>
+    </style>   
+    
 </resources>
