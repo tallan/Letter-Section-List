@@ -10,6 +10,7 @@ ScreenShot
 <img src="https://raw2.github.com/tallan/Letter-Section-List/master/screenshot.png" width="260" height="473" />
 
 Tutorial
+--------
 Please visit [my blog](http://blog.tallan.com/2014/01/31/android-letter-section-listview/#more-3916) for a usage tutorial
 
 
