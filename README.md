@@ -1,4 +1,4 @@
-Letter-Section-List <img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
+Letter-Section-List 
 ===================
 
 Overview
@@ -7,12 +7,12 @@ The Letter-Section-List Library allows developers to easily include a letter sec
 
 ScreenShot
 --------
-
+<img src="https://raw2.github.com/tallan/Letter-Section-List/master/screenshot.png" width="260" height="473" />
 
 Tutorial
+Please visit [my blog](http://blog.tallan.com/2014/01/31/android-letter-section-listview/#more-3916) for a usage tutorial
+
+
+A Tallan Library
 --------
-Please visit my blog for a usage tutorial
-
-
-
-
+<img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
