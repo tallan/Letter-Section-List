@@ -1,5 +1,4 @@
-Letter-Section-List
-<img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
+Letter-Section-List <img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
 ===================
 
 Overview
