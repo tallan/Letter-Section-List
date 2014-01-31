@@ -1,4 +1,5 @@
 Letter-Section-List
+<img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
 ===================
 
 Overview
@@ -16,4 +17,3 @@ Please visit my blog for a usage tutorial
 
 
 
-<img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
