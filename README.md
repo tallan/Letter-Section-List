@@ -14,6 +14,6 @@ Tutorial
 Please visit my blog for a usage tutorial
 
 
-<img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
 
-A Tallan Library
+
+<img src="https://raw2.github.com/tallan/Letter-Section-List/master/tallan.png" />
